@@ -1,27 +1,28 @@
 {
-  "name": "@k0923/ts-cache",
-  "version": "1.0.0",
-  "description": "前端缓存库",
-  "main": "index.ts",
-  "files": [
-    "index.ts"
-  ],
-  "private": false,
-  "scripts": {
-    "test": "vitest --maxConcurrency=10"
-  },
-  "keywords": [
-    "cache"
-  ],
-  "author": "Young <kav7860@gmail.com>",
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
-  "dependencies": {
-    "typescript": "^5.5.4"
-  },
-  "devDependencies": {
-    "vitest": "^2.0.5"
-  }
+	"name": "@k0923/ts-cache",
+	"version": "1.0.1",
+	"description": "前端缓存库",
+	"main": "src/index.ts",
+	"files": [
+		"src"
+	],
+	"type": "module",
+	"private": false,
+	"scripts": {
+		"test": "vitest --maxConcurrency=10"
+	},
+	"keywords": [
+		"cache"
+	],
+	"author": "Young <kav7860@gmail.com>",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	},
+	"dependencies": {
+		"typescript": "^5.5.4"
+	},
+	"devDependencies": {
+		"vitest": "^2.0.5"
+	}
 }

@@ -1,15 +1,17 @@
 {
 	"name": "@k0923/ts-cache",
-	"version": "1.0.1",
+	"version": "1.0.5",
 	"description": "前端缓存库",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"files": [
-		"src"
+		"dist"
 	],
 	"type": "module",
 	"private": false,
 	"scripts": {
-		"test": "vitest --maxConcurrency=10"
+		"test": "vitest --maxConcurrency=10",
+		"build": "tsc"
 	},
 	"keywords": [
 		"cache"

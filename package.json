@@ -15,6 +15,9 @@
   ],
   "author": "Young <kav7860@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "typescript": "^5.5.4"
   },
